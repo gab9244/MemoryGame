@@ -1,0 +1,17 @@
+.Start-btn {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+.Start-btn button {
+    width: 150px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.Off {
+   display: none;
+}

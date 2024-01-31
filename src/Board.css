@@ -1,0 +1,34 @@
+.Board {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr); 
+    
+}
+
+.Board div {
+    display: flex;
+    border: 2px solid blue;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    perspective: 300px;
+  
+    
+}
+
+.cards{
+    transform: rotate3d(0, 5, 0, 90deg);
+    transition:1s ease-in-out;
+}
+
+.roded {
+    transform:rotate3d(0, 5, 0, 0deg);
+}
+
+.Board img {
+    width: 50px;
+}
+.stop {
+    pointer-events: none;
+}
