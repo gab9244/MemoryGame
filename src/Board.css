@@ -1,9 +1,9 @@
 .Board {
     display: grid;
-    width: 300px;
-    height: 300px;
-    grid-template-columns: repeat(4, 1fr); 
-    
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(4, 1fr);
+
 }
 
 .Board div {
@@ -13,22 +13,23 @@
     justify-content: center;
     background-color: black;
     perspective: 300px;
-  
-    
+
+
 }
 
-.cards{
+.cards {
     transform: rotate3d(0, 5, 0, 90deg);
-    transition:1s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .roded {
-    transform:rotate3d(0, 5, 0, 0deg);
+    transform: rotate3d(0, 5, 0, 0deg);
 }
 
 .Board img {
-    width: 50px;
+    width: 80px;
 }
+
 .stop {
     pointer-events: none;
 }
