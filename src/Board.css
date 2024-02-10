@@ -33,3 +33,14 @@
 .stop {
     pointer-events: none;
 }
+
+@media all and (max-width:650px) {
+    .Board {
+        width: 450px;
+        height: 450px;
+    }
+
+    .Board img {
+        width: 60px;
+    }
+}
